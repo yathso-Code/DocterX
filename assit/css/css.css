@@ -1,0 +1,447 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+body{
+     font-family: Arial, Helvetica, sans-serif;
+}
+/* -----------nav- start-------------- */
+nav{
+    background: rgb(240, 240, 240);
+    width: 100vw;
+    height: 45px;
+    border-bottom: 1px solid black;
+    position: fixed;
+    z-index: 999;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+.logo{
+    font-size: 20px;
+    line-height: 45px;
+    margin-left: 80px;
+    font-weight: 600;
+}
+nav ul{
+    float: right;
+    margin-right: 30px;
+
+}
+nav ul li{
+    display: inline-block;
+    line-height: 45px;
+    margin: 0 10px;
+}
+nav ul li a{
+    color: rgb(78, 78, 78);
+    font-weight: 600;
+}
+nav ul li a:hover{
+    color: #17A589;
+   
+}
+nav ul .btn{
+    margin: 0 40px 0 300px;
+}
+nav ul .btn  a{
+    padding: 4.5px 9px;
+    background-color: #17A589;
+    font-weight: 600;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-size: 15px;
+}
+nav ul .btn  a:hover{
+    color: white;
+}
+/* -----------nav-end----------------- */
+/* -----------banner-start------------ */
+
+.img_box {
+    width: 100vw;
+    height: 660px;
+    position: relative;
+}
+.img_box img{
+    width: 100%;
+    height: 100%;
+}
+.img_box .img_text{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-70%, -50%);
+}
+.img_box .img_text p{
+     color: rgb(65, 92, 92);
+     margin: 20px 0;
+}
+.img_box .img_text button{
+    padding: 4.5px 9px;
+     background-color: #128d74;
+     border: none;
+     border-radius: 3px;
+     color: white;
+     font-size: 16px;
+     font-weight: 600;
+}
+
+
+/* -----------bannner- end------------ */
+/* -----------About - start----------- */
+.grand_parent{
+     width: 100vw;
+     height: auto;
+     padding: 40px 0;
+     /* background-color: #17A589; */
+}
+.parant{
+    width: 85%;
+    height: auto;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.parant .child_image,.child_text{
+    margin: 10px;
+}
+.parant .child_image{
+    width: 450px;
+    height: 360px;
+    position: relative;
+}
+.parant .child_image img{
+     width: 100%;
+     height: 100%;
+     position: absolute;
+     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.parant .child_text .text{
+    margin: 110px 0;
+}
+.parant .child_text .text .About_text{
+    font-size: 15px;
+}
+.parant .child_text .text .About_text2{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 7px 0;
+}
+.parant .child_text .text .About_text3{
+    font-size: 15px;
+}
+.parant .child_text .text .btn3{
+     margin-top: 20px;
+     padding: 4.5px 9px;
+     background-color: #128d74;
+     border: none;
+     border-radius: 3px;
+     color: white;
+     font-size: 16px;
+     font-weight: 600;
+}
+/* -----------About- end-------------- */
+/* -----------our services- start------ */
+.grand_parent2{
+    width: 100vw;
+    height: auto;
+    background: rgb(240, 240, 240);
+    padding: 40px 0;
+}
+.grand_parent2 h1{
+    font-size: 2rem;
+    text-align: center;
+    padding: 15px;
+}
+.grand_parent2 .parent2{
+     width: 80%;
+     height: auto;
+     margin: 30px auto;
+     display: flex;
+     justify-content: space-evenly;
+     flex-wrap: wrap;
+}
+.grand_parent2 .parent2 .child{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+     width: 300px;
+     height: 190px;
+     margin: 20px ;
+     background-color: white;
+}
+.grand_parent2 .parent2 .child img {
+    width: 40px;
+    height: 40px;
+    margin: 13px 129px;
+}
+.grand_parent2 .parent2 .child .first{
+    text-align: center;
+    margin: 10px 0;
+    font-weight: bolder;
+}
+.grand_parent2 .parent2 .child .second{
+    text-align: center;
+    font-size: 13px;
+    margin-top: 30px;
+    color: rgb(97, 96, 96);;
+}
+/* ------------our services - end------- */
+/* -----------WORK PROCESS - start------ */
+.grand_parent3{
+    width: 100vw;
+    height: auto;
+    padding: 40px 0;
+}
+.grand_parent3 h1{
+    font-size: 2rem;
+    text-align: center;
+    padding: 15px;
+}
+.grand_parent3 .parent3{
+     width: 75%;
+     height: auto;
+     margin: 30px auto;
+     display: flex;
+     justify-content: space-evenly;
+     flex-wrap: wrap;
+}
+.grand_parent3 .parent3 .child{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+     width: 300px;
+     height: 300px;
+     margin: 20px 0 40px 0;
+     background-color: white;
+     position: relative;
+}
+.grand_parent3 .parent3 .child img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 4px;
+}
+.grand_parent3 .parent3 .child .tex{
+     width: 180px;
+     position: absolute;
+     top: 60px;
+     left: 100px;
+}
+.grand_parent3 .parent3 .child .tex .first{
+    margin: 10px 17px;
+    font-weight: bolder;
+}
+.grand_parent3 .parent3 .child .tex .second{
+    text-align: center;
+    font-size: 13px;
+    margin-top: 30px;
+    color: rgb(97, 96, 96);;
+}
+/* -----------WORK PROCESS _ END-------- */
+/* --------SATISFLED- CLIENT- start--------- */
+  
+.gramd_parent4{
+    background: rgb(240, 240, 240);
+    width: 100vw;
+    height: auto; 
+    padding: 40px 0;  
+}
+.gramd_parent4 h1{
+    text-align: center;
+    padding: 22px 0 10px 0;
+}
+.gramd_parent4 .parent4{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.gramd_parent4 .parent4 .child{
+    width: 300px;
+    height: 300px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    background-color: white;
+    margin: 30px 0 40px 0;
+}
+.gramd_parent4 .parent4 .child .card .img2{
+   width: 100px;
+   height: 20px;
+   margin: 5px 98px;
+}
+.gramd_parent4 .parent4 .child .card .img1{
+   width: 60px;
+   height: 60px;
+   margin: 20px 118px;
+   border-radius: 50%;
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.gramd_parent4 .parent4 .child .card p{
+    text-align: center;
+}
+.gramd_parent4 .parent4 .child .card .text1{
+    font-size: 0.8rem;
+    padding: 10px 10px;
+    color: rgb(114, 114, 114);
+}
+.gramd_parent4 .parent4 .child .card h4{
+    text-align: center;
+}
+.gramd_parent4 .parent4 .child .card .text2{
+     font-size: 12px;
+     margin-top: 10px;
+     color: rgb(107, 107, 107);
+}
+
+/* ----------SATIFLED - CLIENT--------- end */
+/* ----------MAKE APPOINTMENT- start-------- */
+.grand_parent5{
+     width: 100vw;
+     height: auto;
+     position: relative;
+     padding: 50px 0;
+}
+.grand_parent5 h1{
+    text-align: center;
+    padding: 20px 0;
+}
+.grand_parent5 .parent5{
+    width: 100%;
+    height: auto;
+} 
+.grand_parent5 .parent5 .child{
+    width: 300px;
+    height: auto;
+    margin: auto;
+    background-color: rgb(240, 240, 240);
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.grand_parent5 .parent5 .child .box{
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.grand_parent5 .parent5 .child .box input{
+    width: 250px;
+    height: 30px;
+    padding: 10px ;
+    margin: 10px 0;
+    border-radius: 4px;
+    border: 1px solid rgb(107, 107, 107);
+}
+.grand_parent5 .parent5 .child .box p{
+    font-size: 11px;
+    color: rgb(107, 107, 107);
+}
+.grand_parent5 .parent5 .child .box button{
+    padding: 4px 13px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 5px;
+    color: white ;
+    background-color: #17A589;
+    border: 1px solid  rgb(209, 207, 207);
+}
+
+/* ---------MAKE APPOINTMENT- end------------ */
+/* ---------Footer -start -------------------*/
+.footer{
+    width: 100vw;
+    height: 20px;
+    background-color: #17A589;
+}
+.footer p{
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    padding: 3px;
+}
+/* ----------Footer - end------------------- */
+/* -----------responsive navbar - start-------- */
+  /* ----------navbar - start----------------- */
+ nav .rws #btn,#cancle{
+      font-size: 35px;
+      float: right;
+      line-height: 45px;
+      margin-right: 40px;
+      cursor: pointer;
+      display: none;
+ }
+ #check{
+    display: none;
+ }
+ @media (max-width: 1117px){
+    nav .logo{
+        margin-left: 20px;
+        font-size: 20px;
+    }
+    nav ul li a{
+        font-size:  17px;
+    }
+    nav ul .btn{
+         margin: 0 40px 0 200px; 
+    }
+ }
+ 
+ @media (max-width: 980px){
+    nav .rws #btn{
+        display: block;
+    }
+    nav ul .btn{
+        display: none;
+    }
+    nav ul {
+        position: fixed;
+        width: 100%;
+        height: 550px;
+        background-color: rgb(240, 240, 240);
+        top: 45px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0; 
+    }
+    nav ul li a{
+        font-size: 25px;
+    }
+    #check:checked ~ ul{
+        left: 0;
+     }
+     #check:checked ~ .rws #btn{
+        display: none;
+     }
+     #check:checked ~ .rws #cancle{
+        display: block;
+     }
+     .img_box .img_text{
+        position: absolute;
+        top: 50%;
+        left: 40%;
+        transform: translate(-50%, -50%);
+    }
+ } 
+ /* ---------------navbar - end------------------*/
+ /* ---------------banner - start---------------- */
+  @media (max-width: 1150px){
+    .img_box .img_text{
+        position: absolute;
+        top: 50%;
+        left: 33%;
+        transform: translate(-60%, -50%);
+    }
+  }
+  @media (max-width: 936px){
+    .img_box .img_text{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+  }
+ /* ----------------banner - end---------------- */
+/* -----------responsive navbar - end----------- */
